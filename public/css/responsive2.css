@@ -1,0 +1,72 @@
+/* ================= MOBILE ONLY ================= */
+@media (max-width: 500px) {
+
+    .software-main-banner {
+        display: flex;
+        flex-direction: column;   /* row → column */
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .software-main-banner img {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .software-main-banner .banner-text {
+        margin-top: 0 !important;
+    }
+
+    .software-main-banner .buttons {
+        position: static !important; /* absolute remove ONLY mobile */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .software-main-banner .buttons a {
+        width: 100%;
+        /* max-width: 240px; */
+    }
+    .images-2small{
+        width: 40%;
+        height: 40%;
+        gap: 0rem;
+    }
+    .img-mobile-small{
+        max-width: 290px !important; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= MOBILE & SMALL TABLET ================= */
+@media (max-width: 766px) {
+
+    .bottom-img  > div {
+        position: static !important;     /* absolute remove */
+        transform: none !important;
+        margin-top: 15px;
+        padding: 15px 20px !important;
+    }
+
+    .bottom-img  img {
+        max-width: 100%;
+        height: auto;
+    }
+}

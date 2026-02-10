@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(copy \"d:\\\\Client\\\\zzzzzz\\\\ABS POS\\\\nextjs-project\\\\public\\\\images\\\\databasebackupserver\\\\winrest-users.jpg\" \"d:\\\\Client\\\\zzzzzz\\\\ABS POS\\\\nextjs-project\\\\public\\\\images\\\\winrest-lite-images\\\\winrest-users.jpg\")"
+    ]
+  }
+}
