@@ -169,7 +169,7 @@ export default function Footer() {
 
           <div className="col-lg-12">
             <div className="footer-copyright-text-prime">
-              <p>Copyright &copy; 2026 ABS Software Design Inc. All Rights Reserved.</p>
+              <p>Copyright &copy; 2026 ABS Software Design Inc. All Rights Reserved. 00000</p>
             </div>
           </div>
         </div>
